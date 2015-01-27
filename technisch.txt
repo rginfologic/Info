@@ -1,2 +1,7 @@
 We gebruiken html, php, css, javascript en mysql als database. 
-Github gebruiken we om de bestanden te delen, om de website te hosten gebruiken we Ubuntu Server 14.04.1 LTS.
+Github gebruiken we om de bestanden te delen, om de website te hosten gebruiken we Ubuntu Server 14.04.1 LTS 64bit only.
+
+300 MHz x86 processor
+192 MiB of system memory (RAM)
+1 GB of disk space
+Graphics card and monitor capable of 640x480
