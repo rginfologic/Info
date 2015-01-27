@@ -1,0 +1,2 @@
+We gebruiken html, php, css, javascript en mysql als database. 
+Github gebruiken we om de bestanden te delen, om de website te hosten gebruiken we Ubuntu Server 14.04.1 LTS.
