@@ -18,6 +18,21 @@ body{
   
   
 }
+
+nav{
+    width:80%;
+    height:75px;
+    transform: translate(12.5%, 0%);
+	background-color: #E6E6E6;
+}
+
+nav ul li {
+    list-style-type:none;
+    margin-left: 9%;
+    float:left;
+    font-size:50px;
+}
+
 #logo{
 	position:relative;
 	margin-right:60%;
