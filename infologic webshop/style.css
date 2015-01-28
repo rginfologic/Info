@@ -1,5 +1,6 @@
 body{
 	background-color:#8A8A8A;
+	
 }
 .headerparrent{
   display: -webkit-box;
@@ -9,14 +10,15 @@ body{
   display: flex;
   -webkit-flex-flow: row wrap;
   background-color:#FFFFFF;
+  margin-left:5%;
+  margin-right:5%;
 }
 .headerchild {
   background-color: #FFFFFF;
   padding: 5px;
   width: 200px;
   height: 100px;
-  
-  
+  margin:10px;
 }
 
 nav{
@@ -58,6 +60,9 @@ nav ul li {
 	color:black;
 	text-decoration:none;
 	}
+#inloggen a:hover{
+background:#A1A1A1;
+}	
 #cart {
 	position:relative;
 }
@@ -67,5 +72,8 @@ nav ul li {
 	transform: translate(0, -50%);
 	width:45px;
 	height:45px;
-	
+}
+
+#cart img:hover{
+	background:#A1A1A1;
 }
