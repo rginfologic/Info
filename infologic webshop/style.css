@@ -10,8 +10,6 @@ body{
   -webkit-flex-flow: row nowrap;
   align-items:baseline;
   background-color:#FFFFFF;
-  margin-left:5%;
-  margin-right:5%;
 }
 .headerchild {
   background-color: #FFFFFF;
@@ -20,6 +18,7 @@ body{
   height: 50px;
   margin:10px;
 }
+<<<<<<< HEAD
 nav{
     width:80%;
     height:75px;
@@ -31,6 +30,33 @@ nav ul li {
     margin-left: 9%;
     float:left;
     font-size:50px;
+=======
+
+nav {
+background-color: white;
+margin: 0;
+border-top: 1px solid #E6E6E6;
+padding: 0;
+width: 80%;
+height: 50px;
+transform: translate(12.5%, 0%);
+}
+
+nav li{
+display: inline;
+}
+
+nav li a{
+font-weight: bold;
+color: black;
+float: left;
+text-decoration: none;
+margin-left: 16%
+}
+
+nav li a:hover{
+color: #f39c12;
+>>>>>>> origin/master
 }
 #logo{
 	position:relative;
