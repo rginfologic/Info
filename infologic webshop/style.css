@@ -1,7 +1,6 @@
 body{
 	background-color:#8A8A8A;
 }
-
 .headerparrent{
   display: -webkit-box;
   display: -moz-box;
@@ -9,49 +8,49 @@ body{
   display: -webkit-flex;
   display: flex;
   -webkit-flex-flow: row wrap;
-  background-color:#E6E6E6;
-
+  background-color:#FFFFFF;
 }
-
 .headerchild {
-  background-color: #E6E6E6;
+  background-color: #FFFFFF;
   padding: 5px;
   width: 200px;
   height: 100px;
-  margin-top: 10px;
-  line-height:150px;
+  
+  
 }
 #logo{
+	position:relative;
 	margin-right:60%;
+	line-height:normal;
 }
 #logo img{
-height:38px;
-width:150px;
-
-margin-left:10%;
-margin-top:10%;
+	height:38px;
+	width:150px;
+	position:absolute;
+	top:50%;
+	transform: translate(0, -50%);
 }
 #inloggen{
-
+	position:relative;
 }
 #inloggen a{
+	position:absolute;
+	top:20%;
+	transform: translate(0, -50%);
 	font-style:bold;
-	font-size:20px;
+	font-size:25px;
 	font-family:Verdana ;
 	color:black;
 	text-decoration:none;
-	margin-left:25%;
-	margin-right:25%;
-}
+	}
 #cart {
-	
+	position:relative;
 }
 #cart img{
-width:45px;
-height:45px;
-display: block;
-margin-top:auto;
-margin-bottom:auto;
-    margin-left: auto;
-    margin-right: auto
+	position:absolute;
+	top:20%;
+	transform: translate(0, -50%);
+	width:45px;
+	height:45px;
+	
 }
