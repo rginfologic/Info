@@ -10,8 +10,6 @@ body{
   display: flex;
   -webkit-flex-flow: row wrap;
   background-color:#FFFFFF;
-  margin-left:5%;
-  margin-right:5%;
 }
 .headerchild {
   background-color: #FFFFFF;
