@@ -21,18 +21,30 @@ body{
   margin:10px;
 }
 
-nav{
-    width:80%;
-    height:75px;
-    transform: translate(12.5%, 0%);
-	background-color: #E6E6E6;
+nav {
+background-color: white;
+margin: 0;
+border-top: 1px solid #E6E6E6;
+padding: 0;
+width: 80%;
+height: 50px;
+transform: translate(12.5%, 0%);
 }
 
-nav ul li {
-    list-style-type:none;
-    margin-left: 9%;
-    float:left;
-    font-size:50px;
+nav li{
+display: inline;
+}
+
+nav li a{
+font-weight: bold;
+color: black;
+float: left;
+text-decoration: none;
+margin-left: 16%
+}
+
+nav li a:hover{
+color: #f39c12;
 }
 
 #logo{
